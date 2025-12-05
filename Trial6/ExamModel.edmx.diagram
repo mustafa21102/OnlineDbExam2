@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4c1cd1a3ea2f4b0ca698626812dc0a13" Name="Diagram1" ZoomLevel="47">
+        <EntityTypeShape EntityType="OnlineExamDBModel.AntiCheatLog" Width="1.5" PointX="10.5" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineExamDBModel.AttemptAnswer" Width="1.5" PointX="10.5" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineExamDBModel.ExamQuestionPool" Width="1.5" PointX="5.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineExamDBModel.Exam" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineExamDBModel.GradeAuditLog" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineExamDBModel.QuestionOption" Width="1.5" PointX="5.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineExamDBModel.Question" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineExamDBModel.StudentAttempt" Width="1.5" PointX="8.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineExamDBModel.sysdiagram" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineExamDBModel.User" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineExamDBModel.vw_MyStudentResults" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="OnlineExamDBModel.FK_Logs_Attempt" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineExamDBModel.FK_Answers_Attempt" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineExamDBModel.FK_Answers_Option" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineExamDBModel.FK_Answers_Question" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineExamDBModel.FK_Pool_Exams" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineExamDBModel.FK_Pool_Questions" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineExamDBModel.FK_Attempt_Exams" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineExamDBModel.FK_Exams_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineExamDBModel.FK_Options_Questions" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineExamDBModel.FK_Questions_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineExamDBModel.FK_Attempt_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
